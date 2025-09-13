@@ -3,34 +3,38 @@
 <head> <section id = "inicio" > </section>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NatysBlocg</title>
+    <title>NatysBlog</title>
     <meta name="description" content="Blog sobre tecnología, desarrollo web y las últimas tendencias del sector">
     <link rel="stylesheet" href="estilos.css">
 </head>
+ 
 <body>
-    <header>
+    <header class="titulo">
         <div class="container">
             <div class="header-content">
                 <h1>NatysBlog</h1>
                 <img src="/imagenes/mujer.jpg" alt="logo tecnología" class="logo">
                 <nav> 
                     <ul>
+                        
                         <li><a href="#inicio">Inicio</a></li> 
                         <li><a href="#desarrollo">Desarrollo</a></li>
                         <li><a href="#diseño">Diseño</a></li>
                         <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#Sobre mi">Sobre mí</a></li>
                         <li><a href="/imagenes/1. HTML-CSS.pdf" download><button>Descargar</button></a></li>
-            
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
+  
     <div class="container">
         <main>
+        
             <section id="posts">
-                <article>
+                <article id="inicio">
                     <header>
                         <h2><a href="#post1">Los Frameworks CSS más Populares en 2024</a></h2>
                         <div class="article-meta">
@@ -41,6 +45,7 @@
                     </header>
                     <img src="/imagenes/Best-Front-end-Frameworks.png" alt="Logos de frameworks CSS" style="width: 100%; height: 400px; object-fit: cover;">
                     <div style="padding: 20px;">
+                        <section id = "desarrollo" > </section>
                         <p>En este artículo exploramos los frameworks CSS más utilizados en 2024, incluyendo Bootstrap, Tailwind CSS, y las nuevas alternativas que están ganando popularidad entre los desarrolladores.</p>
                         <p>Los frameworks CSS han revolucionado la forma en que desarrollamos interfaces web, permitiendo crear diseños responsivos y modernos de manera más eficiente...</p>
                         <div class="tags">
@@ -51,10 +56,13 @@
                         </div>
                         <a href="#leer-mas">Leer más →</a>
                     </div>
+        
+            
                 </article>
 
+              
                 <article>
-                    <header> <section id = "desarrollo" > </section>
+                    <header> 
                         <h2><a href="#post2">JavaScript ES2024: Nuevas Características</a></h2>
                         <div class="article-meta">
                             Por <strong>Carlos Rodríguez</strong> | 
@@ -64,19 +72,23 @@
                     </header>
                     <img src="/imagenes/javascrip.png" alt="Logo de JavaScript con año 2024" style="width: 100%; height: 400px; object-fit: cover;">
                     <div style="padding: 20px;">
+                         <section id = "diseño" > </section>
                         <p>JavaScript continúa evolucionando y ES2024 trae consigo características emocionantes que mejorarán significativamente la experiencia de desarrollo.</p>
                         <p>Entre las nuevas funcionalidades destacan las mejoras en el manejo de arrays, nuevos métodos para objetos, y optimizaciones en el rendimiento...</p>
+                       
                         <div class="tags">
                             <span class="tag">JavaScript</span>
                             <span class="tag">ES2024</span>
                             <span class="tag">Programación</span>
                         </div>
+                        
                         <a href="#leer-mas">Leer más →</a>
                     </div>
                 </article>
 
+                
                 <article>
-                    <header><section id = "diseño" > </section>
+                    <header>
                         <h2><a href="#post3">Diseño Web Responsivo: Mejores Prácticas</a></h2>
                         <div class="article-meta">
                             Por <strong>Ana López</strong> | 
@@ -100,12 +112,20 @@
             </section>
 
             <aside>
-                <section>
+                <section><section id = "Sobre mi" ></section>
                     <h3>Buscar</h3>
                     <form class="search-form">
                         <input type="search" placeholder="Buscar artículos..." style="width: 100%; padding: 8px;">
                         <button type="submit" style="width: 100%; padding: 8px; margin-top: 5px;">Buscar</button>
                     </form>
+                </section>
+                <section> 
+                     <h3>Sobre mí</h3>
+                     <p>Soy la autora de NatysBlog, un espacio donde comparto lo que 
+                        voy aprendiendo sobre tecnología, programación y diseño web. 
+                        Este blog es mi diario digital y un lugar para conectar con 
+                        quienes disfrutan aprender y crear.</p>
+
                 </section>
 
                 <section>
@@ -122,9 +142,9 @@
                 <section>
                     <h3>Artículos Populares</h3>
                     <ul style="list-style: none;">
-                        <li><a href="#popular1">Guía Completa de Flexbox</a></li>
-                        <li><a href="#popular2">10 Trucos de JavaScript</a></li>
-                        <li><a href="#popular3">CSS Grid vs Flexbox</a></li>
+                        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guía Completa de Flexbox</a></li>
+                        <li><a href="https://medium.com/@bjprajapati381/10-advanced-javascript-tricks-you-dont-know-f1929e40703d">10 Trucos de JavaScript</a></li>
+                        <li><a href="https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/>CSS Grid vs Flexbox</a></li>
                     </ul>
                 </section>
 
@@ -155,8 +175,8 @@
         <div class="container">
             <p>&copy; 2024 NatysBlog. Todos los derechos reservados.</p>
             <p>Síguenos en nuestras redes sociales para más contenido</p>
-            <p><a href="https://mail.google.com/mail/u/0/#inbox">nataliagelvez72@gmail.com</a></p>
-            <p>Contacto 3117410700</p>
+            <p>Correo: <a href="maito:nataliagelvez72@gmail.com">nataliagelvez72@gmail.com</a></p>
+            <p>Teléfono: <a href="Tel: +57 3117410700">3117410700</a></p>
         </div>
     </footer>
 </body>
